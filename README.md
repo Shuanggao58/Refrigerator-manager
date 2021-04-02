@@ -14,7 +14,9 @@ Then use our system!
 
 ## Hardware requirements
 
-The project is centered by Raspberry Pi embedded in the domestic refrigerators. Two extra devices are needed. One is camera located on the top of the preservation layer. Another is the weight sensor embedded in the bottom of the layer.
+The project is centered by Raspberry Pi embedded in the domestic refrigerators. The Raspberry Pi is 3b generation, and it has 256MB memory and 1G swap settings.
+
+Two extra devices are needed. One is camera located on the top of the preservation layer. Another is the weight sensor embedded in the bottom of the layer.
 
 The camera and the weight sensor will work collaboratively. The camera only turns on to catch images of the fruits after the weight sensor feeling weight changes. Then, the images and weight data will send to Raspberry Pi and processing in it.
 
