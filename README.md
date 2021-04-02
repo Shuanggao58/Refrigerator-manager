@@ -12,7 +12,7 @@ We buy and eat fruits regularly in our daily life. There are 2 questions:
 
 Then use our system!
 
-## Hardware requirement
+## Hardware requirements
 
 The project is centered by Raspberry Pi embedded in the domestic refrigerators.2 extra devices are needed. One is camera located on the top of the preservation layer. Another is the weight sensor embedded in the bottom of the layer.
 
