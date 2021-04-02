@@ -28,6 +28,8 @@ The camera and the weight sensor will work collaboratively. The camera only turn
 
 Finally, we add the system to a wi-fi based LAN to make it participated in the network of smart home. We believe it will show huge energy after version iteration.
 
+![image](https://user-images.githubusercontent.com/71794241/113417215-85715600-93f5-11eb-9e79-2c5fd4d5c2f5.png)
+
 ## Methods
 
 Now, let’s see how to implement the system in 4 steps.
