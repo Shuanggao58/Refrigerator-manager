@@ -39,3 +39,12 @@ First, what can we do by the camera? It will turn on by the signal of weight cha
 Second, weighting module. We choose HX711 model to get the weight signal and send it to Raspberry Pi. The putting date will be recorded as well.
 
 Now we have all the data we want. It will all processing in the Raspberry Pi and work out the calories by the weight and fruit species. We will also get the expected optimal eating period by current images and fruit species.
+
+# Realization
+
+## Solftware requirement
+
+1. Burning Raspberry Pi system
+2. Install OpenCV and tensorflow
+
+The system is developed in Linux environment, and main used C++.
