@@ -22,7 +22,7 @@ The project is centered by Raspberry Pi embedded in the domestic refrigerators. 
 
 Two extra devices are needed. One is camera located on the top of the preservation layer. Another is the weight sensor embedded in the bottom of the layer.
 
-![image](https://user-images.githubusercontent.com/71794241/113421178-32030600-93fd-11eb-8936-2b32dd08e96b.png) ![image](https://user-images.githubusercontent.com/71794241/113417041-2f041780-93f5-11eb-8840-c55d2bd74cb5.png)
+![image](https://user-images.githubusercontent.com/71794241/113421316-77273800-93fd-11eb-8910-e737a961e74d.png) ![image](https://user-images.githubusercontent.com/71794241/113421354-84dcbd80-93fd-11eb-93cf-55108f73bfd7.png)
 
 The camera and the weight sensor will work collaboratively. The camera only turns on to catch images of the fruits after the weight sensor feeling weight changes. Then, the images and weight data will send to Raspberry Pi and processing in it.
 
