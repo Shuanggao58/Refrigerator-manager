@@ -18,7 +18,7 @@ Then use our system!
 
 The project is centered by Raspberry Pi embedded in the domestic refrigerators. The Raspberry Pi is 3b generation, and it has 256MB memory and 1G swap settings.
 
-![image](https://user-images.githubusercontent.com/71794241/113417020-20b5fb80-93f5-11eb-8458-d0802feb3488.png)
+![image](https://user-images.githubusercontent.com/71794241/113420739-675b2400-93fc-11eb-8bfb-0d9ca3bd88e5.png)
 
 Two extra devices are needed. One is camera located on the top of the preservation layer. Another is the weight sensor embedded in the bottom of the layer.
 
