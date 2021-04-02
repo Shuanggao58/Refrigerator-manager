@@ -6,7 +6,7 @@ The readme document will guide you to have a holistic understanding of this syst
 
 The system is built for fresh foods, especially fruits. 
 
-![image](https://user-images.githubusercontent.com/71794241/113416993-11cf4900-93f5-11eb-91f8-07c4d04abcfe.png)
+![image](https://user-images.githubusercontent.com/71794241/113421148-26174400-93fd-11eb-8c38-90412bca3af6.png)
 
 We buy and eat fruits regularly in our daily life. There are 2 questions: 
 1. Do you want to know how many calories you have gotten from those lovely fruits? 
@@ -22,7 +22,7 @@ The project is centered by Raspberry Pi embedded in the domestic refrigerators. 
 
 Two extra devices are needed. One is camera located on the top of the preservation layer. Another is the weight sensor embedded in the bottom of the layer.
 
-![image](https://user-images.githubusercontent.com/71794241/113417041-2f041780-93f5-11eb-8840-c55d2bd74cb5.png)
+![image](https://user-images.githubusercontent.com/71794241/113421178-32030600-93fd-11eb-8936-2b32dd08e96b.png) ![image](https://user-images.githubusercontent.com/71794241/113417041-2f041780-93f5-11eb-8840-c55d2bd74cb5.png)
 
 The camera and the weight sensor will work collaboratively. The camera only turns on to catch images of the fruits after the weight sensor feeling weight changes. Then, the images and weight data will send to Raspberry Pi and processing in it.
 
