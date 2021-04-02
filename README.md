@@ -19,3 +19,13 @@ The project is centered by Raspberry Pi embedded in the domestic refrigerators.2
 The camera and the weight sensor will work collaboratively. The camera only turns on to catch images of the fruits after the weight sensor feeling weight changes. Then, the images and weight data will send to Raspberry Pi and processing in it.
 
 Finally, we add the system to a wi-fi based LAN to make it participated in the network of smart home. We believe it will show huge energy after version iteration.
+
+## Methods
+
+Now, let’s see how to implement the system in 4 steps.
+
+First, what can we do by the camera? It will turn on by the signal of weight changing and send several images to the raspberry Pi. There is an agent trained by AI technics to recognize different fruits.
+
+Second, weighting module. We choose HX711 model to get the weight signal and send it to Raspberry Pi. The putting date will be recorded as well.
+
+Now we have all the data we want. It will all processing in the Raspberry Pi and work out the calories by the weight and fruit species. We will also get the expected optimal eating period by current images and fruit species.
