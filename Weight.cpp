@@ -2,22 +2,22 @@
 # include <wiringPi.h>
 #include <fcntl.h>
 
-/*-----------------结构体-----------------*/
+/*--------------------------------*/
 struct hx711_pin {
     int SCK;
     int SDA;
-    int EN;                        //校准使能
-    int calibration;            //校准
-    int coefficient;            //比例系数
-    int weight;                    //重量
-    unsigned long value;        //记录数值
+    int EN;                        
+    int calibration;            
+    int coefficient;            
+    int weight;                    
+    unsigned long value;        
 };
 
 void set_pin(struct hx711_pin* value) {
     value->SCK = 22;
     value->SDA = 21;
     value->EN = 1;
-    value->coefficient = 385;
+    value->coefficient = 380;
 }
 
 void init_pin(struct hx711_pin* value) {
@@ -29,10 +29,10 @@ void init_pin(struct hx711_pin* value) {
 void start(struct hx711_pin* value) {
     int i;
     int n;
-    digitalWrite(value->SCK, LOW);        //使能AD
-    //while (digitalRead(value->SCK));
-    //value->value = 0;                    //数值
-    while (digitalRead(value->SDA));        //AD转换未结束则等待。
+    digitalWrite(value->SCK, LOW);       
+    while (digitalRead(value->SCK));
+    value->value = 0;                   
+    while (digitalRead(value->SDA));        
     value->value = 0;
     delay(100);
     for (i = 0; i < 24; i++) {                     //24
@@ -58,7 +58,7 @@ void start(struct hx711_pin* value) {
         value->weight = n;
         n = 0;
     }
-    printf("Weight is：%d g\n", value->weight);
+    printf("Weight is %d g\n", value->weight);
 }
 
 /*-----------------Main-----------------*/
