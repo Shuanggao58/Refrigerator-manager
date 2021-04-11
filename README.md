@@ -51,3 +51,4 @@ The system is developed in Linux environment, and main used C++.
 
 ## First test
 
+![image](https://github.com/Shuanggao58/RefrigeratorManager/edit/main/gif/Orange.mp4)
