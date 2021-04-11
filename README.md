@@ -48,3 +48,6 @@ Now we have all the data we want. It will all processing in the Raspberry Pi and
 2. Install OpenCV and tensorflow
 
 The system is developed in Linux environment, and main used C++.
+
+## First test
+
