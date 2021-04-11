@@ -1,17 +1,8 @@
 # include <stdio.h>
 # include <wiringPi.h>
 #include <fcntl.h>
-#include <iostream>
 #include <fstream>
-#include <stdlib.h>
-#include<string.h>
-
 using namespace std;
-
-void getformat(char* tmp)
-{
-    int len = strlen(tmp);
-}
 
 /*--------------------------------*/
 struct hx711_pin {
@@ -69,60 +60,12 @@ void start(struct hx711_pin* value) {
         value->weight = n;
         n = 0;
     }
-    //printf("Weight is %d g\n", value->weight);
-    int i, Num = 0;
-    //定义结构体数组
-    Type num[N];
+    printf("Weight is %d g\n", value->weight);
+    ofstream outfile;
+    outfile.open("weight.txt", ios::out | ios::trunc);
+    outfile << value->weight;
+    outfile.close（）;
 
-    ifstream infile("result.txt", ios::in);
-    if (!infile)
-    {
-        cerr << "open error!" << endl;
-        exit(1);
-    }
-    i = 0;
-    while (!infile.eof())
-    {
-        infile >> num[i].type;
-        ++Num;
-        ++i;
-    }
-    infile.close();
-
-    int calorie = 0;
-
-    if (strcmp(num[1].type, "apple") == 0)
-    {
-        calorie = 0.53 * value->weight;
-        cout << "Apple.  Weight:" << value->weight << "g." << " Calorie:" << calorie << "Kcal" << endl;
-    }
-    else if (strcmp(num[1].type, "banana") == 0)
-    {
-        calorie = 0.93 * value->weight;
-        cout << "Banana.  Weight:" << value->weight << "g." << " Calorie:" << calorie << "Kcal" << endl;
-    }
-    else if (strcmp(num[1].type, "bell pepper") == 0)
-    {
-        calorie = 0.18 * value->weight;
-        cout << "Bell pepper.  Weight:" << value->weight << "g." << " Calorie:" << calorie << "Kcal" << endl;
-    }
-    else if (strcmp(num[1].type, "onion") == 0)
-    {
-        calorie = 0.40 * value->weight;
-        cout << "Onion.  Weight:" << value->weight << "g." << " Calorie:" << calorie << "Kcal" << endl;
-    }
-    else if (strcmp(num[1].type, "Orange") == 0)
-    {
-        calorie = 0.44 * value->weight;
-        cout << "Orange.  Weight:" << value->weight << "g." << " Calorie:" << calorie << "Kcal" << endl;
-    }
-    else if (strcmp(num[1].type, "tomato") == 0)
-    {
-        calorie = 0.15 * value->weight;
-        cout << "Tomato.  Weight:" << value->weight << "g." << " Calorie:" << calorie << "Kcal" << endl;
-    }
-    else
-        cout << "Warrning: Can't recongnize" << endl;
 }
 
 /*-----------------Main-----------------*/
@@ -133,17 +76,10 @@ int setup(struct hx711_pin* value) {
     return 0;
 }
 
-struct Type {
-
-    char type[13];
-};
-
-const int N = 2;
-
 void loop(struct hx711_pin* value) {
     while (1)
         start(value);
-}   
+}
 
 int main(void) {
     struct hx711_pin value;
