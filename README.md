@@ -180,7 +180,7 @@ install tensorflow lite from https://www.tensorflow.org/lite/guide/build_rpi
 ![image](https://github.com/Shuanggao58/RefrigeratorManager/blob/main/gif/Onion.gif)
 
 ## Licence  
-Project is distributed under
+Project is distributed under [MIT License](https://github.com/quboyue/Sweep-Robot-Team36/blob/main/LICENSE)
 
 ## Social media
  Follow our social channels to keep up to date with our branding.
