@@ -1,7 +1,7 @@
 <h2 align="center">Refrigerator manager - Team 5</h2>  
 <div align=center><img width="850" height="600" src=""/></div>
 <h5 align="center">Shang Dong: 2528225D@student.gla.ac.uk, Shuang Gao: 2572218G@student.gla.ac.uk, Yuxin Qin: 2588583Q@student.gla.ac.uk, Linqing Cai: 2508394C@student.gla.ac.uk</h2>
-<h5 align="center">**Project Link**: https://github.com/Shuanggao58/RefrigeratorManager</h2>
+<h5 align="center">Project Link: https://github.com/Shuanggao58/RefrigeratorManager</h2>
 <!-- TABLE OF CONTENTS -->
 
 ## Contents
