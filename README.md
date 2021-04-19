@@ -182,6 +182,7 @@ install tensorflow lite from https://www.tensorflow.org/lite/guide/build_rpi
 
 ## Improvement
 
+The edge recognition is obviously optimized, as you can see in the figure below.
 ![image](https://github.com/Shuanggao58/RefrigeratorManager/blob/main/gif/Onion.gif)
 
 ## License  
