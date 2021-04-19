@@ -4,7 +4,7 @@
 <h5 align="center">**Project Link**: https://github.com/Shuanggao58/RefrigeratorManager</h2>
 <!-- TABLE OF CONTENTS -->
 
-# Contents
+## Contents
 
 <ol>
     <li><a href="#abstract">Abstract</a></li>
@@ -27,11 +27,11 @@
      
 ***
 
-# Abstract
+## Abstract
 
 The readme document will guide you to have a holistic understanding of this system, which is called refrigerator manager.
 
-# Aim
+## Aim
 
 The system is built for fresh foods, especially fruits. 
 
@@ -43,7 +43,7 @@ We buy and eat fruits regularly in our daily life. There are 2 questions:
 
 Then use our system!
 
-# Methods
+## Methods
 
 Now, let’s see how to implement the system in 4 steps.
 
@@ -53,7 +53,7 @@ Second, weighting module. We choose HX711 model to get the weight signal and sen
 
 Now we have all the data we want. It will all processing in the Raspberry Pi and work out the calories by the weight and fruit species. We will also get the expected optimal eating period by current images and fruit species.
 
-# Hardware
+## Hardware
 
 The project is centered by Raspberry Pi embedded in the domestic refrigerators. The Raspberry Pi is 3b generation, and it has 256MB memory and 1G swap settings.
 
@@ -69,14 +69,14 @@ Finally, we add the system to a wi-fi based LAN to make it participated in the n
 
 ![image](https://user-images.githubusercontent.com/71794241/113417215-85715600-93f5-11eb-9e79-2c5fd4d5c2f5.png)
 
-# Solftware
+## Solftware
 
 1. Burning Raspberry Pi system
 2. Install OpenCV and tensorflow
 
 The system is developed in Linux environment, and main used C++.
 
-## Environment configuration and compilation
+### Environment configuration and compilation
 1.install opencv(3.5.0)
 ```
 sudo apt -y update
@@ -166,21 +166,21 @@ install tensorflow from https://www.tensorflow.org/install/source
 install tensorflow lite from https://www.tensorflow.org/lite/guide/build_rpi
 ```
 
-# Test
+## Test
 
-## Unit test
+### Unit test
 
 ![image](https://github.com/Shuanggao58/RefrigeratorManager/blob/main/gif/Orange.gif)
 
-## Identification and weighing
+### Identification and weighing
 
-# Improvement
+## Improvement
 
 ![image](https://github.com/Shuanggao58/RefrigeratorManager/blob/main/gif/Onion.gif)
 
-# Licence  
+## Licence  
 Project is distributed under
 
-# Social media
+## Social media
  Follow our social channels to keep up to date with our branding.
  - [Youtube](https://youtu.be/306hyfkdimc)
