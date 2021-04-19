@@ -30,7 +30,7 @@
 
 ## Abstract
 
-The readme document will guide you to have a holistic understanding of this system, which is called refrigerator manager.
+In order to meet people's higher and higher requirements for healthy life, the system uses multilayer convolution neural network and edge detection technology to realize the refrigerator fruit management system based on image recognition and weighing, which is conducive to enrich the smart home system and guide people's healthy life.
 
 ## Aim
 
