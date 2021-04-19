@@ -133,7 +133,10 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 make -j$(nproc)
 make install
 ```
-
+2.install tensorflow(1.14.0)
+There is two kinds of tensorflow. We will choose tensorflow lite so we can reduce the calculation process and increase speed of image classification.
+install tensorflow from https://www.tensorflow.org/install/source
+install tensorflow lite from https://www.tensorflow.org/lite/guide/build_rpi
 
 
 ## First test
