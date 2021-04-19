@@ -189,5 +189,5 @@ Project is distributed under [GNU General Public License v3.0](https://github.co
 
 ## Social media
  Follow our social channels to keep up to date with our branding.
- - [Youtube](https://youtu.be/306hyfkdimc)
- - [Youtube](https://youtu.be/hmOtw0VM0mc)
+ - [Youtube](https://youtu.be/306hyfkdimc) Initial version
+ - [Youtube](https://youtu.be/rlTY5PDiC7U) Final version
