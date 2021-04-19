@@ -1,8 +1,39 @@
-# Refrigerator-manager
+<h2 align="center">Refrigerator manager</h2>  
+
+<div align=center><img width="850" height="600" src="https://github.com/GANTIAN-hub405/picutre/blob/main/sweep-robot.jpg"/></div>
+
+<h2 align="center">Team 5</h2>
+<h2 align="center">Shang Dong: 2528225D@student.gla.ac.uk, Shuang Gao: 2572218G@student.gla.ac.uk, Yuxin Qin: 2588583Q@student.gla.ac.uk, Linqing Cai: 2508394C@student.gla.ac.uk</h2>
+<h2 align="center">https://github.com/Shuanggao58/RefrigeratorManager</h2>
+<!-- TABLE OF CONTENTS -->
+
+# Contents
+
+<ol>
+    <li><a href="#abstract">Abstract</a></li>
+	<li><a href="#aim">Aim</a></li>
+	<li><a href="#methods">Methods</a></li>
+	<li><a href="#hardware">Hardware</a></li>
+	<li><a href="#solftware">Solftware</a></li>
+		</ul>
+		<li><a href="#environment">Environment configuration and compilation</a></li>
+	<li><a href="#test">Test</a></li>
+		</ul>
+		<li><a href="#unit_test">Unit test</a></li>
+		</ul>
+		<li><a href="#identification_and_weighing">Identification and weighing</a></li>
+	<li><a href="#improvement">Improvement</a></li>
+	<li><a href="#licence">Licence</a></li>
+	<li><a href="#social_media">Social media</a></li>
+</ol>
+     
+***
+
+# Abstract
 
 The readme document will guide you to have a holistic understanding of this system, which is called refrigerator manager.
 
-## Aim
+# Aim
 
 The system is built for fresh foods, especially fruits. 
 
@@ -14,7 +45,17 @@ We buy and eat fruits regularly in our daily life. There are 2 questions:
 
 Then use our system!
 
-## Hardware requirements
+# Methods
+
+Now, let’s see how to implement the system in 4 steps.
+
+First, what can we do by the camera? It will turn on by the signal of weight changing and send several images to the raspberry Pi. There is an agent trained by AI technics to recognize different fruits.
+
+Second, weighting module. We choose HX711 model to get the weight signal and send it to Raspberry Pi. The putting date will be recorded as well.
+
+Now we have all the data we want. It will all processing in the Raspberry Pi and work out the calories by the weight and fruit species. We will also get the expected optimal eating period by current images and fruit species.
+
+# Hardware
 
 The project is centered by Raspberry Pi embedded in the domestic refrigerators. The Raspberry Pi is 3b generation, and it has 256MB memory and 1G swap settings.
 
@@ -30,19 +71,7 @@ Finally, we add the system to a wi-fi based LAN to make it participated in the n
 
 ![image](https://user-images.githubusercontent.com/71794241/113417215-85715600-93f5-11eb-9e79-2c5fd4d5c2f5.png)
 
-## Methods
-
-Now, let’s see how to implement the system in 4 steps.
-
-First, what can we do by the camera? It will turn on by the signal of weight changing and send several images to the raspberry Pi. There is an agent trained by AI technics to recognize different fruits.
-
-Second, weighting module. We choose HX711 model to get the weight signal and send it to Raspberry Pi. The putting date will be recorded as well.
-
-Now we have all the data we want. It will all processing in the Raspberry Pi and work out the calories by the weight and fruit species. We will also get the expected optimal eating period by current images and fruit species.
-
-# Realization
-
-## Solftware requirement
+# Solftware
 
 1. Burning Raspberry Pi system
 2. Install OpenCV and tensorflow
@@ -139,10 +168,21 @@ install tensorflow from https://www.tensorflow.org/install/source
 install tensorflow lite from https://www.tensorflow.org/lite/guide/build_rpi
 ```
 
-## First test
+# Test
+
+## Unit test
 
 ![image](https://github.com/Shuanggao58/RefrigeratorManager/blob/main/gif/Orange.gif)
 
-## Improvement
+## Identification and weighing
+
+# Improvement
 
 ![image](https://github.com/Shuanggao58/RefrigeratorManager/blob/main/gif/Onion.gif)
+
+# Licence  
+Project is distributed under
+
+# Social media
+ Follow our social channels to keep up to date with our branding.
+ - [Youtube](https://youtu.be/306hyfkdimc)
