@@ -52,6 +52,11 @@ First, what can we do by the camera? It will turn on by the signal of weight cha
 
 Second, weighting module. We choose HX711 model to get the weight signal and send it to Raspberry Pi. The putting date will be recorded as well.
 
+Third, training and classification module. For the training part, we use a seven-layer convolutional neural network. The first layer is a convolutional layer, the input is a 100*100*3 picture, and 64 convolution kernels with a size of 5*5 and a depth of 3 are used. The second layer is the pooling layer, which reduces the picture size to 50*50. The third and fourth layers are convolutional and pooling at the same time, and finally 25*25*128 picture data is obtained. The fifth and sixth layers are fully connected layers, and use the dropout algorithm with a dropout coefficient of 0.5. The seventh layer is a fully connected output layer. For the classification part, there is two methods, the one is use cpkt model and call it in the python using tensorflow and another is use opencv.dnn to call the pb model, but we should save the model in .pb mode.
+
+Fourth, we will collect different pictures to test the model and improve the model
+
+
 Now we have all the data we want. It will all processing in the Raspberry Pi and work out the calories by the weight and fruit species. We will also get the expected optimal eating period by current images and fruit species.
 
 ## Hardware
