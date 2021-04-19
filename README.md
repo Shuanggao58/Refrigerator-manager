@@ -1,6 +1,6 @@
 <h2 align="center">Refrigerator manager</h2>  
 
-<div align=center><img width="850" height="600" src="https://github.com/GANTIAN-hub405/picutre/blob/main/sweep-robot.jpg"/></div>
+<div align=center><img width="850" height="600" src=""/></div>
 
 <h2 align="center">Team 5</h2>
 <h2 align="center">Shang Dong: 2528225D@student.gla.ac.uk, Shuang Gao: 2572218G@student.gla.ac.uk, Yuxin Qin: 2588583Q@student.gla.ac.uk, Linqing Cai: 2508394C@student.gla.ac.uk</h2>
