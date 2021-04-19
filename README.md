@@ -15,13 +15,12 @@
 	<li><a href="#methods">Methods</a></li>
 	<li><a href="#hardware">Hardware</a></li>
 	<li><a href="#solftware">Solftware</a></li>
-		</ul>
+		<ul>
 		<li><a href="#environment">Environment configuration and compilation</a></li>
 	<li><a href="#test">Test</a></li>
-		</ul>
 		<li><a href="#unit_test">Unit test</a></li>
-		</ul>
 		<li><a href="#identification_and_weighing">Identification and weighing</a></li>
+		</ul>
 	<li><a href="#improvement">Improvement</a></li>
 	<li><a href="#licence">Licence</a></li>
 	<li><a href="#social_media">Social media</a></li>
