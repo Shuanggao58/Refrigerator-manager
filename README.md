@@ -49,6 +49,7 @@ Now we have all the data we want. It will all processing in the Raspberry Pi and
 
 The system is developed in Linux environment, and main used C++.
 
+python3 -m venv OpenCV-"$cvVersion"-py3
 ## First test
 
 ![image](https://github.com/Shuanggao58/RefrigeratorManager/blob/main/gif/Orange.gif)
