@@ -17,7 +17,9 @@
 	<li><a href="#solftware">Solftware</a></li>
 		<ul>
 		<li><a href="#environment">Environment configuration and compilation</a></li>
+		</ul>
 	<li><a href="#test">Test</a></li>
+		<ul>
 		<li><a href="#unit_test">Unit test</a></li>
 		<li><a href="#identification_and_weighing">Identification and weighing</a></li>
 		</ul>
