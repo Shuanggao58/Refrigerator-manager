@@ -22,7 +22,7 @@
 		<li><a href="#identification_and_weighing">Identification and weighing</a></li>
 		</ul>
 	<li><a href="#improvement">Improvement</a></li>
-	<li><a href="#licence">Licence</a></li>
+	<li><a href="#license">License</a></li>
 	<li><a href="#social_media">Social media</a></li>
 </ol>
      
@@ -179,7 +179,7 @@ install tensorflow lite from https://www.tensorflow.org/lite/guide/build_rpi
 
 ![image](https://github.com/Shuanggao58/RefrigeratorManager/blob/main/gif/Onion.gif)
 
-## Licence  
+## License  
 Project is distributed under [GNU General Public License v3.0](https://github.com/Shuanggao58/RefrigeratorManager/blob/main/LICENSE)
 
 ## Social media
