@@ -170,9 +170,9 @@ install tensorflow lite from https://www.tensorflow.org/lite/guide/build_rpi
 
 ### Unit test
 
-![image](https://github.com/Shuanggao58/RefrigeratorManager/blob/main/gif/Orange.gif)
-
 ### Identification and weighing
+
+![image](https://github.com/Shuanggao58/RefrigeratorManager/blob/main/gif/Orange.gif)
 
 ## Improvement
 
