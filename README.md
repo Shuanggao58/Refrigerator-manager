@@ -2,7 +2,7 @@
 <div align=center><img width="850" height="850" src="https://github.com/Shuanggao58/RefrigeratorManager/blob/main/fig/RM.jpg"/></div>
 <h5 align="center">Shang Dong: 2528225D@student.gla.ac.uk, Shuang Gao: 2572218G@student.gla.ac.uk</h2>
 <h5 align="center">Yuxin Qin: 2588583Q@student.gla.ac.uk, Linqing Cai: 2508394C@student.gla.ac.uk</h2>
-<h5 align="center">Project Link: https://github.com/Shuanggao58/RefrigeratorManager</h2>
+<h5 align="center">Webpage: https://github.com/Shuanggao58/RefrigeratorManager</h2>
 <!-- TABLE OF CONTENTS -->
 
 ## Contents
