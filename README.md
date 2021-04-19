@@ -54,8 +54,8 @@ Second, weighting module. We choose HX711 model to get the weight signal and sen
 
 Third, training and classification module. For the training part, we use a seven-layer convolutional neural network. The first layer is a convolutional layer, the input is a 100×100×3 picture, and 64 convolution kernels with a size of 5×5 and a depth of 3 are used. The second layer is the pooling layer, which reduces the picture size to 50×50. The third and fourth layers are convolutional and pooling at the same time, and finally 25×25×128 picture data is obtained. The fifth and sixth layers are fully connected layers, and use the dropout algorithm with a dropout coefficient of 0.5. The seventh layer is a fully connected output layer. For the classification part, there is two methods, the one is use cpkt model and call it in the python using tensorflow and another is use opencv.dnn to call the pb model, but we should save the model in .pb mode.
 
-Fourth, we will collect different pictures to test the model and improve the model
-
+Fourth, we fisrt detect the edge of the target and then we classify images according to the pictures cut from the contours. For edge recognition, we use opencv's findcontour function. 
+The method of this function comes from "Satoshi Suzuki and others. Topological structural analysis of digitized binary images by border following. Computer Vision, Graphics, and Image Processing, 30(1):32–46, 1985." This algorithm is performed on global pixels Scan one by one and find the relationship between the value of each pixel and the value of surrounding pixels to determine the inner and outer contours. In addition, we also try to use the Laplacian operator to find the boundary with the largest pixel difference by using the Laplacian operator's characteristic of being more sensitive to the derivative gradient.
 
 Now we have all the data we want. It will all processing in the Raspberry Pi and work out the calories by the weight and fruit species. We will also get the expected optimal eating period by current images and fruit species.
 
